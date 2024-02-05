@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  padding:4rem;
+
 }
 
 .App-logo {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* MuiButton */
+.buttonStack{
+  margin:1rem 0rem;
 }

@@ -1,0 +1,59 @@
+import { Stack, Button } from "@mui/material";
+
+export const MuiButton = () => {
+  return (
+    <Stack>
+      <Stack className="buttonStack" spacing={2} direction="row">
+        <Button variant="text" href="http://google.com">
+          {" "}
+          Text
+        </Button>
+        <Button variant="contained">Contained</Button>
+        <Button variant="outlined">Outlined</Button>
+      </Stack>
+      <Stack className="buttonStack" spacing={2} direction="row">
+        <Button variant="contained" color="primary">
+          Primary
+        </Button>
+        <Button variant="contained" color="primary">
+          Primary
+        </Button>
+
+        <Button variant="contained" color="primary">
+          Primary
+        </Button>
+        <Button variant="contained" color="secondary">
+          Secondary
+        </Button>
+        <Button variant="contained" color="error">
+          Error
+        </Button>
+        <Button variant="contained" color="warning">
+          Warning
+        </Button>
+        <Button variant="contained" color="info">
+          Info
+        </Button>
+        <Button variant="contained" color="success">
+          Success
+        </Button>
+      </Stack>
+      <Stack
+        className="buttonStack"
+        display="block"
+        spacing={2}
+        direction="row"
+      >
+        <Button variant="contained" size="small">
+          Small
+        </Button>
+        <Button variant="contained" size="medium">
+          Medium
+        </Button>
+        <Button variant="contained" size="large">
+          Large
+        </Button>
+      </Stack>
+    </Stack>
+  );
+};
