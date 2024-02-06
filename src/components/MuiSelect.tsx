@@ -16,7 +16,7 @@ setCountry(e.target.value as string)
         onChange={handleChange}
         fullWidth
         size='small'
-        helperTex ='please select your country'
+        helperText ='please select your country'
       >
         <MenuItem value="IN"> India</MenuItem>
         <MenuItem value="US"> USA</MenuItem>
