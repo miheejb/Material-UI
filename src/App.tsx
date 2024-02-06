@@ -6,6 +6,7 @@ import { MuiSelect } from "./components/MuiSelect";
 import { MuiTextField } from "./components/MuiTextField";
 import { MuiTypography } from "./components/MuiTypography";
 import {MuiSwitch} from "./components/MuiSwitch";
+import {MuiRating} from "./components/MuiRating";
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <MuiRadioButton />
       <MuiCheckbox/>
       <MuiSwitch/>
+      <MuiRating/>
        
     </div>
   );
